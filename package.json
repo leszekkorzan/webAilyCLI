@@ -33,7 +33,7 @@
   "oclif": {
     "bin": "webaily"
   },
-  "repository": "leszekkorzan/webaily",
+  "repository": "https://github.com/leszekkorzan/webAilyCLI",
   "scripts": {
     "prepack": "oclif-dev readme",
     "test": "echo NO TESTS",
