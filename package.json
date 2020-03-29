@@ -1,0 +1,42 @@
+{
+  "name": "webaily-cli",
+  "description": "Short URLs directly from command prompt.",
+  "version": "0.0.1",
+  "author": "Leszek Korzan @leszekkorzan",
+  "bin": {
+    "webaily": "./bin/run"
+  },
+  "dependencies": {
+    "@oclif/command": "^1.5.19",
+    "@oclif/config": "^1.14.0",
+    "@oclif/plugin-help": "^2.2.3",
+    "cli-ux": "^5.4.5",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.22.2",
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://webaily.web.app/",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "webaily"
+  },
+  "repository": "leszekkorzan/webaily",
+  "scripts": {
+    "prepack": "oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
