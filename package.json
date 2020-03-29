@@ -1,7 +1,7 @@
 {
   "name": "webaily-cli",
   "description": "Short URLs directly from command prompt.",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "author": "Leszek Korzan @leszekkorzan",
   "bin": {
     "webaily": "./bin/run"
